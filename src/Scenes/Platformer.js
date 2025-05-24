@@ -28,6 +28,7 @@ class Platformer extends Phaser.Scene {
         this.tileset = this.map.addTilesetImage("tilemap_packed", "tilemap_tiles");
 
         // Create a layer
+        this.wallLayer = this.map.createLayer("walls", this.tileset, 0, 0);
         this.pipesLayer1 = this.map.createLayer("pipes1", this.tileset, 0, 0);
         this.pipesLayer2 = this.map.createLayer("pipes2", this.tileset, 0, 0);
         this.chainLayer = this.map.createLayer("chains", this.tileset, 0, 0);
