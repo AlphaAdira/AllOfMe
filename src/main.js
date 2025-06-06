@@ -32,7 +32,7 @@ let config = {
     },
     width: 1800,
     height: 900,
-    scene: [Load, Tutorial, Platformer, Win, Loose]
+    scene: [Load, Tutorial, Platformer1, Platformer2, Platformer3, Platformer4, Win, Loose]
 }
 
 var score = 0;

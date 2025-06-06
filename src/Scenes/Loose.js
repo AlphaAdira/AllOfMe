@@ -40,7 +40,7 @@ class Loose extends Phaser.Scene {
         // Start Over
         if (this.again.isDown) {
             score = 0;
-            this.scene.start("platformerScene");
+            this.scene.start("tutorialScene");
         }
     }
 }

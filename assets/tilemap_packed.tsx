@@ -25,6 +25,10 @@
   <properties>
    <property name="death" type="bool" value="true"/>
   </properties>
+  <animation>
+   <frame tileid="13" duration="250"/>
+   <frame tileid="29" duration="250"/>
+  </animation>
  </tile>
  <tile id="20">
   <properties>
@@ -45,10 +49,6 @@
   <properties>
    <property name="death" type="bool" value="true"/>
   </properties>
-  <animation>
-   <frame tileid="13" duration="250"/>
-   <frame tileid="29" duration="250"/>
-  </animation>
  </tile>
  <tile id="38">
   <properties>
@@ -65,6 +65,12 @@
   <properties>
    <property name="death" type="bool" value="true"/>
   </properties>
+ </tile>
+ <tile id="64">
+  <animation>
+   <frame tileid="64" duration="100"/>
+   <frame tileid="65" duration="100"/>
+  </animation>
  </tile>
  <tile id="78">
   <animation>

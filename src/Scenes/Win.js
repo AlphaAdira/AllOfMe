@@ -7,7 +7,7 @@ class Win extends Phaser.Scene {
         this.load.scenePlugin('AnimatedTiles', './lib/AnimatedTiles.js', 'animatedTiles', 'animatedTiles');
     }
     create() {
-        my.text.end = this.add.text(200, 100, "Level Complete", {
+        my.text.end = this.add.text(200, 100, "Game Complete", {
            fontFamily: 'Times, serif',
            fontSize: 200,
            wordWrap: {
@@ -28,13 +28,6 @@ class Win extends Phaser.Scene {
                width: 1800
            }
         });
-        my.text.restart = this.add.text(610, 700, "[Next Level not Available]", {
-           fontFamily: 'Times, serif',
-           fontSize: 50,
-           wordWrap: {
-               width: 1800
-           }
-        });
         
         this.again = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
 
@@ -47,7 +40,7 @@ class Win extends Phaser.Scene {
         // Start Over
         if (this.again.isDown) {
             score = 0;
-            this.scene.start("platformerScene");
+            this.scene.start("tutorialScene");
         }
     }
 }
