@@ -1,0 +1,51 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "AllOfMe.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "AllOfMe.tmx": {
+            "scale": 4,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 195.125,
+                "y": 686.875
+            }
+        },
+        "AllOfMe.tmx#tilemap_packed": {
+            "scaleInDock": 1
+        }
+    },
+    "frame.defaultDuration": 250,
+    "last.exportedFilePath": "C:/Users/diamo/OneDrive/Documents/CMPM120/AllOfMe/assets",
+    "last.imagePath": "C:/Users/diamo/OneDrive/Documents/CMPM120/AllOfMe/assets",
+    "lastUsedTilesetExportFilter": "All Files (*)",
+    "map.height": 50,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 18,
+    "map.tileWidth": 18,
+    "map.width": 100,
+    "openFiles": [
+        "AllOfMe.tmx"
+    ],
+    "project": "AllOfMe.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "AllOfMe.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 18,
+        "width": 18
+    }
+}
