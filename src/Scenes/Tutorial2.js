@@ -116,7 +116,7 @@ class Tutorial2 extends Phaser.Scene {
 
         this.next = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
         this.skip = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.X);
-        my.text.help = this.add.text(my.sprite.player.x - 200, 580, "Congratulations s̵̡̯̑͐t̴͙̾r̸̨̼̃̀a̸̲͒͗y̴͈̚!\nYou made it to the next level!", {
+        my.text.help = this.add.text(my.sprite.player.x - 200, 580, "Congratulations!\nYou got past the level s̵̡̯̑͐t̴͙̾r̸̨̼̃̀a̸̲͒͗y̴͈̚!", {
             font: 'bold 20px "Comic Sans MS", sans-serif',
             fill: 'black',
             stroke: '#ffffff', // Outline color (black)
